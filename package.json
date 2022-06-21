@@ -1,0 +1,34 @@
+{
+  "name": "tiket-mobile",
+  "version": "1.0.0",
+  "description": "",
+  "main": "App.js",  
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "ts-node-dev --respawn --transpile-only --inspect 9229  src/App.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alwanly/tiket-mobile.git"
+  },
+  "keywords": [
+    "nodedotjs",
+    "api"
+  ],
+  "author": "Alwan Alyafi Mulyawan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alwanly/tiket-mobile/issues"
+  },
+  "homepage": "https://github.com/Alwanly/tiket-mobile#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/node": "^18.0.0",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "express": "^4.18.1",
+    "winston": "^3.7.2"
+  }
+}

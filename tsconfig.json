@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    // "emitDeclarationOnly": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "isolatedModules": true,
+    "module": "CommonJS",
+    "moduleResolution": "node",
+    "outDir": "./dist",
+    "resolveJsonModule": true,
+    "target": "ES2020",
+    "strict": false,
+    "rootDirs": ["./src", "./test"],
+    "paths": {
+      "@components/*": ["src/infrastructure/components/*"]
+    },
+    "lib": ["ES2020"],
+    "types": ["node"],
+    "typeRoots": ["./node_modules/@types"]
+  },
+  "include": ["./src/**/*.ts", "./test/**/*.ts"],
+  "exclude": ["node_modules"]
+}
